@@ -10,7 +10,6 @@ function App() {
 		setActivity(data);
 	};
 
-
 	useEffect(() => {
 		getAdvace();
 	}, []);
@@ -22,7 +21,6 @@ function App() {
 			</div>
 			<div className="activity">
 				<p>{activity.activity}</p>
-				<p>{activity.type}</p>
 			</div>
 			<div className="container">
 				<button onClick={getAdvace}>GO!</button>
